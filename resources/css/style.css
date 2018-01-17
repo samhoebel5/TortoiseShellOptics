@@ -1,0 +1,140 @@
+
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/* Header */
+
+.header {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding: 1rem 2rem 1rem 0rem;
+
+}
+
+.logo img {
+  height: 1.5rem;
+  padding: 0rem 1rem 0rem 2rem;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("../../resources/images/banner.png");
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+.banner h1 {
+  background-color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  width: 24rem;
+  position: relative;
+  top: 12rem;
+  margin-left: 30rem;
+}
+
+/* Icon Section */
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icon span {
+  padding-top: 2rem;
+}
+
+.paper {
+  margin-right: 6rem;
+  width: 3.5rem;
+}
+
+.ruler {
+  margin-right: 6rem;
+  width: 5rem;
+}
+
+.truck {
+  width: 5rem;
+}
+
+/* Description Section */
+
+.description {
+  display: flex;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.sub-heading {
+  width: 35%;
+}
+
+.philosophy {
+  margin-right: 5%;
+}
+
+.description h5 {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+
+.footer {
+  margin-top: 5rem;
+}
+
+.footer .logo {
+    background-color: azure;
+    height: 9rem;
+    padding-left: 4rem;
+    margin-left: 7rem;
+}
